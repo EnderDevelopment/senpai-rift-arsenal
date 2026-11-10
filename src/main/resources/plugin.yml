@@ -1,0 +1,12 @@
+name: SenpaiArsenal
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  weapons:
+    description: Gives the custom mace and spear.
+    usage: /weapons
+    permission: senpaiarsenal.weapons
+permissions:
+  senpaiarsenal.weapons:
+    default: op
